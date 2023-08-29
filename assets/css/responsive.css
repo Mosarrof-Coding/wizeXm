@@ -1,0 +1,141 @@
+
+@media (min-width: 1201px) {
+    p{
+        font-size: 16px;
+    }
+    #chatbots .merow .chatbot-txt .boots-p{
+        max-width: 435px;
+        padding-top: 20px;
+    }
+    #chatbots .merow .chatbot-txt .boots-p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1200px) {
+    h1{
+        font-size: 5.2rem;
+    }
+    p{
+        font-size: 18px;
+    }
+    .audit-wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:60px;
+    }
+    #chatbots .merow{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:26px;
+    }
+    #chatbots {
+        padding: 0;
+    }
+    #process {
+        padding: 0;
+    }
+    #audit-call {
+        padding: 0;
+    }
+
+}
+@media (max-width: 991px) {
+    html{
+        font-size: 50%;
+    }
+    h1{
+        font-size: 5rem !important;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    .end-details{
+        max-width: 100%;
+    }
+    footer .f-inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap:20px;
+    }
+    footer .foot-icon{
+        justify-content: center;
+        order: 2;
+    }
+}
+@media (max-width: 767px) {
+    html{
+        font-size: 45%;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    #wize .viral-btn{
+        max-width: 100%;
+        padding: 20px 0;
+        background-color: var(--yellow);
+        color: var(--fff);
+        font-size: 2.8rem;
+        font-weight: 600;
+        transition: all linear .3s;
+        border-radius: 50px;
+    }
+    #wize .viral-btn svg{
+        width: 50px;
+    }
+    footer .f-inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap:20px;
+    }
+    footer .foot-icon{
+        justify-content: center;
+        order: 2;
+    }
+    .h-animation .anim-inner {
+        animation: runn 10s linear infinite;
+        gap: 60px;
+    }
+}
+@media (max-width: 575px) {
+    html{
+        font-size: 42%;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    h1{
+        font-size: 4rem !important;
+    }
+    footer .f-inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap:20px;
+    }
+    footer .f-inner .img{
+        order: 1;
+    }
+    footer p{
+        order: 3;
+    }
+    footer .foot-icon{
+        justify-content: center;
+        order: 2;
+    }
+
+    /* =========Faramer============ */
+    .fram-heading .framCaption{
+        font-size: 5rem !important;
+    }
+}
