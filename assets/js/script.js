@@ -65,3 +65,6 @@ var swiper = new Swiper('.mySwiper1', {
     },
 });
 
+// aos---------
+AOS.init();
+

@@ -7,11 +7,14 @@
     <meta name="description" content="ShortForm is a Framer template built for short form content agencies that are looking to increase their conversion rate, showcase their work and boost their brand credibility.">
     <meta name="keywords" content="HTML, CSS, bootstrap, swiper, aos, animation, JavaScript">
     <meta name="author" content="John Doe">
-    <title>Wize to Framer</title>
+    <title>Aiden - AI Automation Agency Template</title>
     <!-- favicon----------->
-    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f47b.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/favicon.webp" type="image/x-icon">
     <!-- bootstrap icon- -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- aos---------- -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Font:inter-ragular------- -->
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -91,7 +94,7 @@
         <!-- hero section------->
         <div id="hero" class="">
             <div class="container">
-                <div class="hero-wrapper w-100">
+                <div class="hero-wrapper w-100" data-aos="fade-up">
                     <h1>Save time & work smarter with AI Automation</h1>
                     <p>We help you automate your workflows, automate repetitive tasks, and elevate your business.</p>
                     <div class="text-center">
@@ -102,7 +105,7 @@
                         <p>No-pressure 30 minute discovery call</p>
                     </span>
                 </div>
-                <div class="heroVideo">
+                <div class="heroVideo" data-aos="fade-up">
                     <h5>Watch this video to see how we do it 👇</h5>
                     <article class="video w-100">
                         <iframe id="Uplay" src="https://www.youtube.com/embed/ebtzVGVVHhA"
@@ -122,7 +125,7 @@
                     </article>
                     <p class="video-p">Trusted by 40+ worldwide clients</p>
                 </div>
-                <div class="h-animation">
+                <div class="h-animation" data-aos="fade-up">
                     <div class="anim-inner">
                         <div class="sl-item">
                             <svg width="58" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" id="svg-1987490594_1685"><path d="M0 0v1.592h11.253V0H0Zm12.847 0v1.592h16.036S27.246 0 25.076 0H12.847ZM32.03 0v1.592h9.701L41.154 0h-9.125Zm16.657 0-.577 1.592h9.614V0h-9.037ZM0 3.095v1.592h11.253V3.095H0Zm12.847.002v1.59h17.897s-.21-1.225-.574-1.59H12.847Zm19.182 0v1.59h10.765l-.533-1.59H32.03Zm15.505 0-.533 1.59h10.722v-1.59H47.534ZM3.234 6.19v1.594h4.873V6.19H3.233Zm12.847 0v1.594h4.873V6.19h-4.873Zm9.613 0v1.594h4.874s.31-.842.31-1.594h-5.184Zm9.568 0v1.594h8.64l-.576-1.594h-8.064Zm11.21 0-.578 1.594h8.684V6.19h-8.105ZM3.234 9.288v1.591h4.874V9.288H3.233Zm12.848 0v1.591h12.447s1.041-.816 1.373-1.591h-13.82Zm19.181 0v1.591h4.874v-.886l.31.886h8.926l.332-.886v.886h4.874V9.288H45.43l-.487 1.348-.487-1.348h-9.194Zm-32.03 3.095v1.591h4.874v-1.591H3.233Zm12.848 0v1.591H29.9c-.332-.772-1.373-1.591-1.373-1.591H16.081Zm19.181 0v1.591h4.874v-1.591h-4.874Zm5.758 0 .59 1.591h6.693l.561-1.591H41.02Zm8.684 0v1.591h4.874v-1.591h-4.874Zm-46.47 3.095v1.591h4.873v-1.591H3.233Zm12.847 0v1.591h4.873v-1.591h-4.873Zm9.613 0v1.591h5.183c0-.75-.309-1.591-.309-1.591h-4.874Zm9.568 0v1.591h4.874v-1.591h-4.874Zm6.865 0 .572 1.591h4.488l.575-1.591h-5.635Zm7.577 0v1.591h4.874v-1.591h-4.874ZM.088 18.573v1.594H11.34v-1.594H.088Zm12.76 0v1.594H30.17c.364-.365.574-1.594.574-1.594H12.847Zm19.269 0v1.594h8.019v-1.594h-8.02Zm11.119 0 .587 1.594h2.284l.55-1.594h-3.421Zm6.468 0v1.594h8.107v-1.594h-8.107ZM.088 21.67v1.592H11.34V21.67H.088Zm12.76 0v1.59h12.228c2.17 0 3.807-1.59 3.807-1.59H12.847Zm19.269 0v1.592h8.019V21.67h-8.02Zm12.233 0 .565 1.587.096.003.574-1.59H44.35Zm5.354 0v1.592h8.107V21.67h-8.107Z" fill="#95928E" opacity=".5"></path></svg>
@@ -180,7 +183,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="hero-service" id="heroservice">
+                <div class="hero-service" data-aos="fade-up" id="heroservice">
                     <div class="service-left d-flex justify-content-between align-items-center flex-column flex-xl-row">
                         <div class="hs-txt text-center text-xl-start">
                             <h2>You can’t beat AI... So why not <span>use</span> it?</h2>
@@ -233,7 +236,7 @@
         <section id="chatbots">
             <div class="container">
                 <div class="chatboot-main">
-                    <div class="merow">
+                    <div class="merow" data-aos="fade-up">
                         <div class="chatbot-img">
                             <img src="./assets/images/heroimg/boots(3).svg" alt="svg" class="w-100" height="457px">
                         </div>
@@ -254,7 +257,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="merow">
+                    <div class="merow" data-aos="fade-up">
                         <div class="chatbot-img">
                             <img src="./assets/images/heroimg/boots(2).svg" alt="svg" class="w-100" height="457px">
                         </div>
@@ -275,7 +278,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="merow">
+                    <div class="merow" data-aos="fade-up">
                         <div class="chatbot-img">
                             <img src="./assets/images/heroimg/boots(1).svg" alt="svg" class="w-100" height="457px">
                         </div>
@@ -300,12 +303,12 @@
         <!-- testimonials------->
         <section id="testimonials">
             <div class="container">
-                <div class="testimonial-title">
+                <div class="testimonial-title" data-aos="fade-up">
                     <h2>Hear from our clients</h2>
                 </div>
                 <div class="swiper mySwiper1">
                     <div class="testimonial-wrapper swiper-wrapper gap-lg-3">
-                        <div class="testimonial-item swiper-slide">
+                        <div class="testimonial-item swiper-slide" data-aos="fade-up">
                             <div class="testi-icon d-flex">
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
@@ -322,7 +325,7 @@
                                 <p class="test-p">Founder, JW Slides</p>
                             </div>
                         </div>
-                        <div class="testimonial-item swiper-slide">
+                        <div class="testimonial-item swiper-slide" data-aos="fade-up">
                             <div class="testi-icon d-flex">
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
@@ -339,7 +342,7 @@
                                 <p class="test-p">Founder, JW Slides</p>
                             </div>
                         </div>
-                        <div class="testimonial-item swiper-slide">
+                        <div class="testimonial-item swiper-slide" data-aos="fade-up">
                             <div class="testi-icon d-flex">
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
@@ -366,10 +369,10 @@
         <!-- process------------>
         <section id="process">
             <div class="container">
-                <div class="process-details">
+                <div class="process-details" data-aos="fade-up">
                     <h2>Our process</h2>
                 </div>
-                <div class="process-inner">
+                <div class="process-inner" data-aos="fade-up">
                     <span>01</span>
                     <h3>Book your free discovery call</h3>
                     <p>
@@ -383,21 +386,21 @@
                         <p class="mb-0">No-pressure 30 minute discovery call</p>
                     </div>
                 </div>
-                <div class="process-inner">
+                <div class="process-inner" data-aos="fade-up">
                     <span>02</span>
                     <h3>Planning & strategy session</h3>
                     <p>
                         If we're a fit, after the discovery call we will start planning the course of action. We'll schedule a Strategy Session call where we will share with you the next steps, and adjust the plan if needed.
                     </p>
                 </div>
-                <div class="process-inner">
+                <div class="process-inner" data-aos="fade-up">
                     <span>03</span>
                     <h3>Development</h3>
                     <p>
                         Once we've agreed on the strategy and plan of action, we get to work and start developing your new AI solutions.
                     </p>
                 </div>
-                <div class="process-inner">
+                <div class="process-inner" data-aos="fade-up">
                     <span>04</span>
                     <h3>Deployment + optimization</h3>
                     <p>
@@ -416,12 +419,12 @@
 
         <!-- FAQ---------------->
         <section id="faq">
-            <div class="faq-title text-center my-2">
+            <div class="faq-title text-center my-2" data-aos="fade-up">
                 <h2>Frequently Asked Questions</h2>
             </div>
             <div class="faq-inner">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
+                    <div class="accordion-item" data-aos="fade-up">
                       <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                           <div class="acor-text-icon">
@@ -434,7 +437,7 @@
                         <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
                       </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item" data-aos="fade-up">
                       <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                             <div class="acor-text-icon">
@@ -447,7 +450,7 @@
                         <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                       </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item" data-aos="fade-up">
                       <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"   aria-expanded="false" aria-controls="flush-collapseThree">
                             <div class="acor-text-icon">
@@ -467,7 +470,7 @@
         <!-- audit call--------->
         <section id="audit-call">
             <div class="container">
-                <div class="audit-wrapper">
+                <div class="audit-wrapper" data-aos="fade-up">
                     <div class="order-2 order-xl-1">
                         <!-- Calendly inline widget begin -->
                         <div class="calendly-inline-widget" data-url="https://calendly.com/tinaberry112188?hide_landing_page_details=1&hide_gdpr_banner=1" style="min-width:320px;height:650px;">
@@ -532,7 +535,7 @@
             <div class="container">
                 <div class="row gap-5 gap-lg-0">
                     <div class="col-lg-6">
-                        <div class="end-details text-center text-lg-start">
+                        <div class="end-details text-center text-lg-start" data-aos="fade-up">
                             <span class="viral">
                                 Save time & work smarter with <span>AI Automation</span>
                             </span>
@@ -540,7 +543,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="wize-btn">
+                        <div class="wize-btn" data-aos="fade-up">
                             <a href="#" class="viral-btn m-auto ms-lg-auto">Book Your Free Audit Call 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="" height="" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 18 18">
                                     <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
@@ -575,6 +578,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <!-- calendly form----->
     <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <!-- aos----------- -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- main scripts------>
     <script src="./assets/js/script.js"></script>
 </body>
