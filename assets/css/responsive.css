@@ -9,9 +9,6 @@
     }
     #chatbots .merow .chatbot-txt .boots-p{
         max-width: 435px;
-        padding-top: 20px;
-    }
-    #chatbots .merow .chatbot-txt .boots-p{
         font-size: 16px;
     }
 }
@@ -21,6 +18,9 @@
     }
     p{
         font-size: 18px;
+    }
+    .end-details{
+        max-width: 100%;
     }
     .audit-wrapper{
         display: grid;
@@ -53,9 +53,6 @@
     p{
         font-size: 16px !important;
     }
-    .end-details{
-        max-width: 100%;
-    }
     footer .f-inner{
         display: flex;
         flex-direction: column;
@@ -80,13 +77,9 @@
         font-size: 16px !important;
     }
     #wize .viral-btn{
-        max-width: 100%;
-        padding: 20px 0;
-        background-color: var(--yellow);
-        color: var(--fff);
-        font-size: 2.8rem;
-        font-weight: 600;
-        transition: all linear .3s;
+        padding: 11px 0;
+        font-size: 20px;
+        width: 100%;
         border-radius: 50px;
     }
     #wize .viral-btn svg{
@@ -111,13 +104,13 @@
 }
 @media (max-width: 575px) {
     html{
-        font-size: 42%;
+        font-size: 50%;
     }
     p{
         font-size: 16px !important;
     }
     h1{
-        font-size: 4rem !important;
+        /* font-size: 4.5rem !important; */
     }
     footer .f-inner{
         display: flex;
