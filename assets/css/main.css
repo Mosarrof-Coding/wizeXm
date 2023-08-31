@@ -116,6 +116,30 @@ body{
     color: var(--fff);
 }
 
+/* clocking------- */
+.clock{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    /* align-items: center; */
+    gap:8px;
+}
+.clock i{
+    font-size: 19px;
+    color: var(--dark-a3);
+    display: inline-block;
+}
+.clock p{
+    font-size: 16px;
+    color: var(--dark-a3);
+    line-height: 24px;
+    letter-spacing: 0;
+    display: inline-block;
+    font-family: var(--instrument);
+    margin: 0;
+}
+
+
 /* nav togglar---- */
 .toggler_icon i{
     font-size: 3rem;
@@ -223,27 +247,6 @@ body{
     color: var(--dark72);
     max-width: 600px;
     margin: auto;
-}
-.clock{
-    width: fit-content;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    gap:8px;
-}
-.clock i{
-    font-size: 19px;
-    color: var(--dark-a3);
-    display: inline-block;
-}
-.clock p{
-    font-size: 16px;
-    color: var(--dark-a3);
-    line-height: 24px;
-    letter-spacing: 0;
-    display: inline-block;
-    font-family: var(--instrument);
-    margin: 0;
 }
 
 /* ===============hero video============= */
@@ -394,11 +397,6 @@ body{
     flex-basis: 40%;
     text-align: right;
 }
-#hero .hero-service .service-left .hs-btn .clock i{
-    font-size: 20px;
-    color:var(--dark72);
-    margin-right: 7px;
-}
 #hero .hero-service .service-left h2{
     padding: 10px 0;
 }
@@ -481,7 +479,6 @@ body{
     text-align: center;
     background-color: var(--gray) !important;
     width: fit-content !important;
-    padding:9px 10px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -496,6 +493,12 @@ body{
     width: 12px !important;
     height: 12px !important;
     background-color:#fff  !important;
+}
+.swiper-pagination-bullet:first-child {
+    margin: 7px 3px 7px 10px !important;
+}
+.swiper-pagination-bullet:last-child {
+    margin: 7px 10px 7px 3px !important;
 }
 .swiper-button-disabled{
     opacity: .2 !important;
@@ -695,7 +698,7 @@ body{
     margin: 25px 0 20px 0;
 }
 #audit-call .audit-wrapper .audit-item .hero_thumb .h-img{
-    width: 60px;
+    min-width: 60px;
     height: 60px;
     border-radius: 50%;
     border: 2px solid var(--yellow);
