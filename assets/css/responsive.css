@@ -111,9 +111,6 @@
     p{
         font-size: 16px !important;
     }
-    h1{
-        /* font-size: 4.5rem !important; */
-    }
     footer .f-inner{
         display: flex;
         flex-direction: column;
